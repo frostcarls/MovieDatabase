@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>553</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QComboBox" name="Genre">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>160</y>
+     <width>105</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Genre&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Genre</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NULL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Comedy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Horror</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Romance</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Drama</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Action</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Thriller</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Adventure</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Documentary</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Crime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Children</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Animation</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sci-Fi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mystery</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Musical</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="OK_Genre">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>190</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK_IMDB">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>190</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK_Relevance">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>390</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="IMDB_Rating">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>160</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IMDB Rating&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Rating</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NULL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>&gt;0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>&gt;1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>&gt;2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>&gt;3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>&gt;4</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="Relevance">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>360</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Relevance&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Relevance greater than</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>0.25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>0.5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>0.75</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="Keyword">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>270</y>
+     <width>461</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Relevant Keyword&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string>Relavence</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK_Text">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>300</y>
+     <width>111</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK_Movie">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>100</y>
+     <width>111</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Movie_Name">
+   <property name="geometry">
+    <rect>
+     <x>52</x>
+     <y>70</y>
+     <width>461</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Relevant Keyword&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Order_By">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>160</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Genre&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Order By</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NULL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Name (asc)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Name (dsc)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rating (asc)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rating (dsc)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="OK_Order">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>190</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>571</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="To_review">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>420</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Review</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="To_admin">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>420</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Admin</string>
+   </property>
+  </widget>
+  <zorder>graphicsView</zorder>
+  <zorder>Genre</zorder>
+  <zorder>OK_Genre</zorder>
+  <zorder>OK_IMDB</zorder>
+  <zorder>OK_Relevance</zorder>
+  <zorder>IMDB_Rating</zorder>
+  <zorder>Relevance</zorder>
+  <zorder>Keyword</zorder>
+  <zorder>OK_Text</zorder>
+  <zorder>OK_Movie</zorder>
+  <zorder>Movie_Name</zorder>
+  <zorder>Order_By</zorder>
+  <zorder>OK_Order</zorder>
+  <zorder>To_review</zorder>
+  <zorder>To_admin</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

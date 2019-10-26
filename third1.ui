@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>515</width>
+    <height>517</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="Movie_Name_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>371</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Relevant Keyword&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string>Movie Name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK_MovieName_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>200</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Genre">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>290</y>
+     <width>105</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Genre&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Genre3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NULL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Comedy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Horror</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Romance</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Drama</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Action</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Thriller</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Adventure</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Documentary</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Crime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Children</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Animation</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sci-Fi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mystery</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Musical</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="Genre_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>290</y>
+     <width>105</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Genre&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Genre2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NULL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Comedy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Horror</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Romance</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Drama</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Action</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Thriller</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Adventure</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Documentary</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Crime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Children</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Animation</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sci-Fi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mystery</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Musical</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="Genre_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>290</y>
+     <width>105</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Genre&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Genre1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NULL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Comedy</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Horror</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Romance</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Drama</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Action</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Thriller</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Adventure</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Documentary</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Crime</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Children</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Animation</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sci-Fi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mystery</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Musical</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="OK_Genre">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>320</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK_Genre_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>320</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK_Genre_3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>320</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>-40</x>
+     <y>-40</y>
+     <width>931</width>
+     <height>791</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>graphicsView</zorder>
+  <zorder>Movie_Name_2</zorder>
+  <zorder>OK_MovieName_2</zorder>
+  <zorder>Genre</zorder>
+  <zorder>Genre_2</zorder>
+  <zorder>Genre_3</zorder>
+  <zorder>OK_Genre</zorder>
+  <zorder>OK_Genre_2</zorder>
+  <zorder>OK_Genre_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

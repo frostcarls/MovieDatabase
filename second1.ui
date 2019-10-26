@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>523</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QPushButton" name="OK_MovieName">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="UserID">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>137</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Relevant Keyword&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string>User ID</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK_UserID">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Movie_Name_2">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>67</y>
+     <width>261</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Relevant Keyword&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string>Movie Name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK_UserID_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>270</y>
+     <width>71</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>931</width>
+     <height>791</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="IMDB_Rating">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>101</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IMDB Rating&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Rating</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NULL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>&gt;0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>&gt;1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>&gt;2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>&gt;3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>&gt;4</string>
+    </property>
+   </item>
+  </widget>
+  <zorder>graphicsView</zorder>
+  <zorder>OK_MovieName</zorder>
+  <zorder>UserID</zorder>
+  <zorder>OK_UserID</zorder>
+  <zorder>Movie_Name_2</zorder>
+  <zorder>OK_UserID_2</zorder>
+  <zorder>IMDB_Rating</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

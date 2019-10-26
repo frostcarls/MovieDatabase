@@ -1,0 +1,84 @@
+create or replace function relevance_search(ref_ph in varchar(20), rel_val in int)
+return
+	cursor a is select tag from genome_tags where tag like '%' + ref_ph + '%';
+	cursor b is select relevance from genome_scores where relevance > rel_val;
+	
+	x genome_tags.tag%type;
+	y genome_scores.tag%type;
+	j genome_scores.movieid%type;
+	z movie.title%rowtype;
+begin
+	open a;
+	open b;
+	fetch a into x;
+	while(a%found) loop
+		fetch b into y;
+		while(b%found) loop
+			select title into z from movie where 
+			
+		end loop;								
+	end loop;
+				
+--------------------
+INSET REVIEW:-
+2)
+
+//have to generate a user id
+// have used ?? for userid , change accordingly
+//have used 'xx' --> should insert datetime here, python haas an inbult datetime function --> datetime.datetime.now(), but not sure about dbms.
+
+
+create or replace function ins_rev (ip_id in int, name in varcahr(20), ip_rat in int)
+as
+return
+	cursor c is select * from movie;
+	x movie.movieid%type;
+	a number;
+begin	
+	for bb in (select * from movie where title like '%' + name + '%') loop
+		insert into rating(userid,movieid,rating,timestamp) values(??,bb.movieid,ip_rat,'xx');
+	end loop;	
+end;
+
+
+--------------------- 	
+//  WHERE Name LIKE '%' + LTRIM(RTRIM(@PartialName)) + '%'
+
+
+
+######
+
+create or replace procedure basic_search (name in movie.title%type)
+as
+cursor a is select * from movie where title like '%' + name + '%';
+x movie%rowtype;
+
+begin
+	open a;
+	fetch a into x;
+	while(a%found) loop
+		dbms_output.put_line(x.title);
+	end loop;
+end;
+
+######
+#######
+
+create or replace procedure relevance_search(rel_pf in varchar(20), rel_val in number)
+as
+cursor a is select * from genome_tags where tag like '%' + rel_pf + '%';
+cursor b(tagId number) is select * from genome_scores where relevance > rel_val;
+cursor c(movieId1 number) is select * from movie where movieId = movieId1;
+x genome_tags%rowtype;
+y genome_scores%rowtype;
+z movie%rowtype;
+
+begin
+	for x in a loop
+		for y in b(x.tagId) loop
+			for z in c(y.movieId) loop
+			dbms_output.put_line(z.title);
+			end loop;
+		end loop;
+	end loop;
+end;
